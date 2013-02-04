@@ -36,10 +36,10 @@ public class AxisAlignedBox extends Geometry {
 	 *            Point 2.
 	 */
 
-	public AxisAlignedBox(final Material material, final Point3 lbf, final Point3 run) {
+	public AxisAlignedBox(final Material material) {
 		super(material);
-		this.lbf = lbf;
-		this.run = run;
+		this.lbf = new Point3(-0.5, -0.5, -0.5);
+		this.run = new Point3(0.5, 0.5, 0.5);
 	}
 
 	@Override

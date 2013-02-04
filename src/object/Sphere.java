@@ -35,10 +35,10 @@ public class Sphere extends Geometry {
 	 * @param r
 	 *            = Radius of the Sphere.
 	 */
-	public Sphere(final Material material, final Point3 c, final double r) {
+	public Sphere(final Material material) {
 		super(material);
-		this.c = c;
-		this.r = r;
+		this.c = new Point3(0, 0, 0);
+		this.r = 1;
 	}
 
 	@Override
