@@ -10,3 +10,4 @@ public class Test {
 		System.out.println(test.x(test2));
 	}
 }
+ 

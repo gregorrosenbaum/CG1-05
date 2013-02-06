@@ -38,8 +38,8 @@ public class Plane extends Geometry {
 
 	public Plane(final Material material, final Point3 a, final Normal3 n) {
 		super(material);
-		this.a = a;
-		this.n = n;
+		this.a = new Point3 (0,0,0);
+		this.n = new Normal3 (0,1,0);
 	}
 
 	@Override
