@@ -81,7 +81,7 @@ public class ImageSaver {
 		Light[] lights = new Light[] {
 		// new Spotlight(new Color(0.5, 0.5, 0.5), new Point3(-1, 4, -5), true,
 		// new Vector3(0, -1, 0), Math.PI / 4),
-		new PointLight(new Color(0.8, 0.8, 0.8), false, new Point3(1, 1, 2)) };
+		new PointLight(new Color(0.8, 0.8, 0.8), false, new Point3(-1, -1, -1)) };
 		// new DirectionalLight(new Color(0.3, 0.3, 0.3), true, new Vector3(1,
 		// 1, 1)) };
 
